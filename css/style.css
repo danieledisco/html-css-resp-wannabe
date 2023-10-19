@@ -50,6 +50,7 @@
      width: 1140px;
      margin: 0 auto;
      padding: 0 20px;
+     border: 1px dashed white;
  }
  
  .row {
@@ -127,7 +128,8 @@
  /************************************************
      SOLUZIONE RESPONSIVE
   ************************************************/
- @media screen and (max-width: 768px) 
+ /* Tablet */
+  @media screen and (max-width: 768px) 
  {
     .site-header
     {
@@ -138,6 +140,7 @@
         width: 768px;
         margin: 0 auto;
         padding: 0 15px;
+        border: 1px dashed red;
     }
     
     h1 
@@ -173,7 +176,7 @@
         font-size: 0.5rem;
     }
  }
-
+/* Mobile */
  @media screen and (max-width: 480px) 
  {
 
@@ -194,7 +197,7 @@
         width: 480px;
        /* margin: 0 auto;*/
         /*padding: 0 5px;*/
-        border: 1px solid red
+        border: 1px dashed blue;
     }
     h1 
     {
