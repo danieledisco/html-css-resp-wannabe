@@ -128,8 +128,31 @@
  /************************************************
      SOLUZIONE RESPONSIVE
   ************************************************/
- /* Tablet */
-  @media screen and (max-width: 768px) 
+ @media screen and (min-width: 769px)
+ {
+    .container
+    {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        border: 1px dashed red;
+    }
+    .lessons
+    {
+        width: 100%;
+    }
+    .steps
+    {
+        width: 100%;
+    }
+ }
+
+
+
+ 
+ 
+  /* Tablet */
+   @media screen and (max-width: 768px) 
  {
     .site-header
     {
@@ -137,13 +160,14 @@
     }
     .container 
     {
-        width: 768px;
+       /*  width: 768px; */
+        width: 100%;
         margin: 0 auto;
         padding: 0 15px;
         border: 1px dashed red;
     }
     
-    h1 
+   /*  h1 
     {
         margin-bottom: 2.5rem;
         font-size: 2rem;
@@ -157,7 +181,7 @@
     {
         margin-bottom: 0.5rem;
         font-size: 1.rem;
-    }
+    } */
     .lessons .col img 
     {
         height: 180px;
@@ -171,10 +195,10 @@
     {
         width: 100%;
     }
-    .step .text
+   /*  .steps .text
     {
         font-size: 0.5rem;
-    }
+    } */
  }
 /* Mobile */
  @media screen and (max-width: 480px) 
@@ -194,12 +218,13 @@
     }
     .container 
     {
-        width: 480px;
+/*         width: 480px;
+ */        width: 100%;
        /* margin: 0 auto;*/
         /*padding: 0 5px;*/
         border: 1px dashed blue;
     }
-    h1 
+   /*  h1 
     {
         margin-bottom: 1rem;
         font-size: 1rem;
@@ -213,7 +238,7 @@
     {
         margin-bottom: 0.2rem;
         font-size: 0.5.rem;
-    }
+    } */
     .lessons .col img 
     {
         height: 130px;
@@ -223,15 +248,15 @@
     {
          font-size: 0.2rem;
     }
-    .step
+    .steps
     {
         padding: 0 0;
         margin: 0 0;
     }
-    .step .text
+    /* .steps .text
     {
        font-size: 0.2rem;
-    }
+    } */
     .why-us .col-left {
         width: 80%;
         margin: auto;
